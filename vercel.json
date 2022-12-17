@@ -1,0 +1,10 @@
+{
+    "builds": [{
+        "src": "./frontend/app.js",
+        "use": "@vercel/node"
+    }],
+    "routes": [{
+        "src": "/.frontend/*",
+        "dest": "app.js"
+    }]
+}
