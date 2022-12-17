@@ -1,0 +1,218 @@
+.orderDetailsPage {
+  background-color: white;
+}
+.JNf2c8 {
+  padding: 0px 5px 27px;
+}
+
+.r3nkAD {
+  height: 0.1875rem;
+  width: 100%;
+  background-position-x: -1.875rem;
+  background-size: 7.25rem 0.1875rem;
+  background-image: repeating-linear-gradient(45deg,#6fa6d6,#6fa6d6 33px,transparent 0,transparent 41px,#f18d9b 0,#f18d9b 74px,transparent 0,transparent 82px);
+}
+.orderDetailsContainer > h1 {
+  font: 300 3vmax "Roboto";
+  margin: 4vmax 0;
+  color: tomato;
+}
+
+.orderDetailsContainer {
+  padding: 5vmax;
+  padding-bottom: 0%;
+}
+
+.orderDetailsContainer > p {
+  font: 400 1.8vmax "Roboto";
+}
+
+.orderDetailsContainerBox,
+.orderDetailsCartItemsContainer {
+  margin: 1.7vmax;
+}
+
+.orderDetailsContainerBox > div {
+  display: flex;
+  margin: 1vmax 0;
+}
+
+.orderDetailsContainerBox > div > p {
+  font: 400 1vmax "Roboto";
+  color: black;
+}
+.orderDetailsContainerBox > div > span {
+  margin: 0 1vmax;
+  font: 100 1vmax "Roboto";
+  color: #575757;
+}
+
+.orderDetailsCartItems > p {
+  font: 400 1.8vmax "Roboto";
+}
+
+.orderDetailsCartItems {
+  padding: 2vmax 5vmax;
+  border-top: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.orderDetailsCartItemsContainer > div {
+  display: flex;
+  font: 400 1vmax "Roboto";
+  align-items: center;
+  margin: 2vmax 0;
+}
+
+.orderDetailsCartItemsContainer > div > img {
+  width: 3vmax;
+}
+
+.orderDetailsCartItemsContainer > div > a {
+  color: #575757;
+  margin: 0 2vmax;
+  width: 60%;
+  text-decoration: none;
+}
+
+.orderDetailsCartItemsContainer > div > span {
+  font: 100 1vmax "Roboto";
+  color: #5e5e5e;
+}
+
+@media screen and (max-width: 600px) {
+  .orderDetailsContainer > p {
+    font: 400 6vw "Roboto";
+  }
+
+  .orderDetailsContainerBox > div {
+    margin: 6vw 0;
+  }
+
+  .orderDetailsContainerBox > div > p {
+    font: 400 4vw "Roboto";
+  }
+  .orderDetailsContainerBox > div > span {
+    font: 100 4vw "Roboto";
+  }
+
+  .orderDetailsCartItems > p {
+    font: 400 6vw "Roboto";
+  }
+
+  .orderDetailsCartItemsContainer > div {
+    font: 400 4vw "Roboto";
+    margin: 4vw 0;
+  }
+
+  .orderDetailsCartItemsContainer > div > img {
+    width: 10vw;
+  }
+
+  .orderDetailsCartItemsContainer > div > a {
+    margin: 2vw;
+    width: 30%;
+  }
+
+  .orderDetailsCartItemsContainer > div > span {
+    font: 100 4vw "Roboto";
+  }
+}
+.MqHNeD {
+  padding: 0 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  border-bottom: 1px dotted rgba(0,0,0,.09);
+}
+.vXeTuK {
+  padding: 13px 10px;
+  color: rgba(0,0,0,.54);
+  font-size: 12px;
+}
+._30Hj4X {
+  padding: 13px 0 13px 10px;
+  width: 240px;
+  border-left: 1px dotted rgba(0,0,0,.09);
+  justify-content: flex-end;
+  word-wrap: break-word;
+  color: rgba(0,0,0,.8);
+}
+.MqHNeD {
+  padding: 0 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  border-bottom: 1px dotted rgba(0,0,0,.09);
+}
+.vXeTuK {
+  padding: 13px 10px;
+  color: rgba(0,0,0,.54);
+  font-size: 12px;
+}
+._30Hj4X {
+  padding: 13px 0 13px 10px;
+  width: 240px;
+  border-left: 1px dotted rgba(0,0,0,.09);
+  justify-content: flex-end;
+  word-wrap: break-word;
+  color: rgba(0,0,0,.8);
+}
+.MqHNeD {
+  padding: 0 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  border-bottom: 1px dotted rgba(0,0,0,.09);
+}
+.vXeTuK {
+  padding: 13px 10px;
+  color: rgba(0,0,0,.54);
+  font-size: 12px;
+}
+.ZVaifC {
+  margin: 0 0 0 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.MqHNeD:last-child {
+  border: 0;
+}
+.fF6WqS {
+  align-items: flex-start;
+}
+.MqHNeD {
+  padding: 0 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  border-bottom: 1px dotted rgba(0,0,0,.09);
+}
+._4I0y7U {
+  padding-top: 20px;
+}
+.vXeTuK {
+  padding: 13px 10px;
+  /* color: rgba(0,0,0,.54); */
+  /* font-size: 12px; */
+  font: 400 0.9vmax "Roboto";
+  color: black;
+}
+._30Hj4X {
+  padding: 13px 0 13px 10px;
+  width: 240px;
+  border-left: 1px dotted rgba(0,0,0,.09);
+  justify-content: flex-end;
+  word-wrap: break-word;
+  color: rgba(0,0,0,.8);
+}
+.fqySNq {
+  color: #ee4d2d;
+  font-size: 24px;
+}
+.Payment {
+  width: 1266px;
+}
