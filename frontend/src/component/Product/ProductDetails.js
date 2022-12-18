@@ -155,7 +155,7 @@ const ProductDetails = ({ match }) => {
                 <p>
                   Trạng thái:
                   <b className={product.Stock < 1 ? "redColor" : "greenColor"}>
-                    {product.Stock < 1 ? "OutOfStock" : "InStock"}
+                    {product.Stock < 1 ? "Hết hàng" : "Còn hàng"}
                   </b>
                 </p>
               </div>

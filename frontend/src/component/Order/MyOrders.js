@@ -19,12 +19,12 @@ const MyOrders = () => {
   const { user } = useSelector((state) => state.user);
 
   const columns = [
-    { field: "id", headerName: "ID Đơn Hàng", minWidth: 300, flex: 1 },
+    { field: "id", headerName: "ID Đơn Hàng", minWidth: 300, flex: 1},
 
     {
       field: "status",
       headerName: "Trạng thái",
-      minWidth: 150,
+      minWidth: 170,
       flex: 0.5,
       cellClassName: (params) => {
         return params.getValue(params.id, "status") === "Delivered"
@@ -36,23 +36,23 @@ const MyOrders = () => {
       field: "itemsQty",
       headerName: "Số lượng",
       type: "number",
-      minWidth: 150,
-      flex: 0.3,
+      minWidth: 100,
+      flex: 0.5,
     },
 
     {
       field: "amount",
       headerName: "Tổng tiền",
       type: "number",
-      minWidth: 270,
+      minWidth: 200,
       flex: 0.5,
     },
 
     {
       field: "actions",
-      flex: 0.3,
+      flex: 0.5,
       headerName: "Chi tiết",
-      minWidth: 150,
+      minWidth: 100,
       type: "number",
       sortable: false,
       renderCell: (params) => {

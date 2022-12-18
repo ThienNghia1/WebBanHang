@@ -82,6 +82,7 @@ const Products = ({ match }) => {
               onChange={priceHandler}
               valueLabelDisplay="auto"
               aria-labelledby="range-slider"
+              
               min={0}
               max={600000}
             />

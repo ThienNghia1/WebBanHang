@@ -188,7 +188,7 @@ const UpdateProduct = ({ history, match }) => {
               <StorageIcon />
               <input
                 type="number"
-                placeholder="Stock"
+                placeholder="Số lượng"
                 required
                 onChange={(e) => setStock(e.target.value)}
                 value={Stock}
@@ -223,7 +223,7 @@ const UpdateProduct = ({ history, match }) => {
               type="submit"
               disabled={loading ? true : false}
             >
-              Tạo mới
+              Chỉnh sửa
             </Button>
           </form>
         </div>
